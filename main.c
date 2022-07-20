@@ -15,12 +15,6 @@
 #include <unistd.h>
 #include <poll.h>
 
-//Starting State OKish
-// Game_Running_State, trocar input para botão físico e adicionar outras funcionalidades
-// Player_State, até o momento supérfluo, ver o que se pode fazer, dada a máquina de estados do git
-// TurnGOSignON/OFF OK, só trocar os valores do buffer de entrada de 0->1 ou 1->0
-
-
 //Debounce parameters 
 #define DEBOUNCE_TIME       0.3
 #define SAMPLE_FREQUENCY    10
